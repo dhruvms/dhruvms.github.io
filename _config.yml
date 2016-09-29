@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Dhruv Mauria Saxena"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Dhruv Mauria Saxena"
+description              : "Personal website for Dhruv Mauria Saxena."
+url                      : "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : "dhruvms/dhruvms.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "first_jump.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -227,3 +227,18 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Posts can be configured to use the single layout — with reading time,
+# comments, social sharing links, and related posts enabled.
+# Adding the following to _config.yml will set these defaults for all posts:
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
