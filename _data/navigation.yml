@@ -1,22 +1,22 @@
 # main links links
 main:
   - title: "Research"
-    url: research/
+    url: /research/
     children:
       - title: "Course Projects"
-        url: research/course-projects/
+        url: /research/course-projects/
 
   - title: "Education"
-    url: education/
+    url: /education/
     children:
       - title: "Coursework"
-        url: education/coursework/
+        url: /education/coursework/
 
   - title: "CV"
-    url: cv/
+    url: /cv/
 
   - title: "About"
-    url: about/
+    url: /about/
 
   # - title: "Downloads"
   #   url: /downloads/
