@@ -2,15 +2,15 @@
 main:
   - title: "Research"
     url: /research/
-    children:
-      - title: "Course Projects"
-        url: /research/course-projects/
+    # children:
+    #   - title: "Course Projects"
+    #     url: /research/course-projects/
 
   - title: "Education"
     url: /education/
-    children:
-      - title: "Coursework"
-        url: /education/coursework/
+    # children:
+    #   - title: "Coursework"
+    #     url: /education/coursework/
 
   - title: "CV"
     url: /cv/
