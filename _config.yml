@@ -12,6 +12,7 @@ title_separator          : "-"
 name                     : "Dhruv Mauria Saxena"
 description              : "Personal website for Dhruv Mauria Saxena."
 url                      : "https://dhruvms.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dhruvms/dhruvms.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "first_jump.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -89,7 +90,7 @@ author:
   linkedin         : "dhruvmsaxena"
   facebook         : "dhruvmsaxena"
   instagram        : "dhruvms"
-  github           : "dhruvms"
+  # github           : "dhruvms"
   # bitbucket        :
   # codepen          :
   # dribbble         :
@@ -246,3 +247,10 @@ defaults:
 #       comments: true
 #       share: true
 #       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

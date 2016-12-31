@@ -13,7 +13,7 @@ main:
     #     url: /education/coursework/
 
   - title: "CV"
-    url: /cv/
+    url: /docs/cv_short.pdf
 
   - title: "About"
     url: /about/
